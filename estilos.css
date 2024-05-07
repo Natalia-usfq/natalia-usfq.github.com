@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Quicksand:wght@300..700&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&family=Quicksand:wght@300..700&family=Roboto+Slab:wght@100..900&display=swap')
+
+.centrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1cm;
+    padding-top: 1cm;
+}
+.cuadro {
+    background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 3px, transparent 3px) 0% 0%/8px 8px no-repeat,
+            radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 3px, transparent 3px) 100% 0%/8px 8px no-repeat,
+            radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 3px, transparent 3px) 0% 100%/8px 8px no-repeat,
+            radial-gradient(circle at 0 0, #ffffff 0, #ffffff 3px, transparent 3px) 100% 100%/8px 8px no-repeat,
+            linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 10px) calc(100% - 16px) no-repeat,
+            linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 16px) calc(100% - 10px) no-repeat,
+            linear-gradient(90deg, rgba(191,0,210,0.73) 11%, rgba(236,60,204,0.4) 72%);
+border-radius: 0px;
+padding: 9px;
+box-sizing: border-box;
+ width: 300px;
+ height: 100px;
+ text-align: center;
+
+
+}
+.cuadro-servicios {
+background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 3px, transparent 3px) 0% 0%/8px 8px no-repeat,
+            radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 3px, transparent 3px) 100% 0%/8px 8px no-repeat,
+            radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 3px, transparent 3px) 0% 100%/8px 8px no-repeat,
+            radial-gradient(circle at 0 0, #ffffff 0, #ffffff 3px, transparent 3px) 100% 100%/8px 8px no-repeat,
+            linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 10px) calc(100% - 16px) no-repeat,
+            linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 16px) calc(100% - 10px) no-repeat,
+            linear-gradient(90deg, rgba(236,60,204,0.4) 17%, rgba(244,246,64,0.81) 43%, rgba(244,246,64,0.81) 63%, rgba(242,131,32,0.81) 84%);
+border-radius: 0px;
+padding: 9px;
+box-sizing: border-box;
+width: 300px;
+height: 100px;
+text-align: center;
+
+position: relative;
+top: -100px;
+left: 300px;
+
+}
+.cuadro-portafolio{
+background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 3px, transparent 3px) 0% 0%/8px 8px no-repeat,
+            radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 3px, transparent 3px) 100% 0%/8px 8px no-repeat,
+            radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 3px, transparent 3px) 0% 100%/8px 8px no-repeat,
+            radial-gradient(circle at 0 0, #ffffff 0, #ffffff 3px, transparent 3px) 100% 100%/8px 8px no-repeat,
+            linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 10px) calc(100% - 16px) no-repeat,
+            linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 16px) calc(100% - 10px) no-repeat,
+            linear-gradient(90deg, rgba(242,131,32,0.81) 32%, rgba(38,132,8,0.85) 81%);
+border-radius: 0px;
+padding: 9px;
+box-sizing: border-box; 
+width: 300px;
+height: 100px;
+text-align: center;
+
+position: relative;
+top: -200px;
+left: 600px;
+}
+.imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -5cm;
+    padding-top: 0cm;}
+
+
+.cuadros-titulos
+{
+    background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 3px, transparent 3px) 0% 0%/7px 7px no-repeat,
+    radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 3px, transparent 3px) 100% 0%/7px 7px no-repeat,
+    radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 3px, transparent 3px) 0% 100%/7px 7px no-repeat,
+    radial-gradient(circle at 0 0, #ffffff 0, #ffffff 3px, transparent 3px) 100% 100%/7px 7px no-repeat,
+    linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 8px) calc(100% - 14px) no-repeat,
+    linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 14px) calc(100% - 8px) no-repeat,
+    linear-gradient(90deg, rgba(191,0,210,0.73) 0%, rgba(253,90,224,0.48) 23%, rgba(253,90,224,0.48) 31%, rgba(244,246,64,0.81) 50%, rgba(242,131,32,0.81) 74%, rgba(38,132,8,0.85) 92%);
+border-radius: 0px;
+padding: 1px;
+box-sizing: border-box;
+padding-left: 15px; }
+
+.espacio
+{padding-top: 8px;
+margin: 15px;}
+
+.float {
+    float: left;
+}
+
+.espacio-arriba {padding-top: 10px;}
+
+p
+{font-family: "Quicksand";}
+
+h1,h2 {font-family: "Oswald", "Quicksand";}
+
+.centrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1cm;
+    padding-top: 1cm;
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #ececec;
+}
+
+.logo {
+    max-width: 5rem;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #1c1c1c;
+}
+
+.abrir-menu,
+.cerrar-menu {
+    display: none;
+}
+
+@media screen and (max-width: 550px) {
+    .abrir-menu,
+    .cerrar-menu {
+        display: block;
+        border: 0;
+        font-size: 1.25rem;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    .abrir-menu {
+        color: #1c1c1c;
+    }
+
+    .cerrar-menu {
+        color: #ececec;
+    }
+
+    .nav {
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 1rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #1c1c1c;
+        padding: 2rem;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+    }
+
+    .nav.visible {
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    .nav-list {
+        flex-direction: column;
+        align-items: end;
+    }
+
+    .nav-list li a {
+        color: #ecececec;
+    }
+}
+
+@media(max-width:600px) 
+
+@media(min-width:600px )
